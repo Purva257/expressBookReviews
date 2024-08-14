@@ -28,6 +28,7 @@ app.use("/customer/auth/*", function auth(req,res,next){
 });
  
 const PORT =5000;
+const host = '127.0.0.1'
 
 app.use("/customer", customer_routes);
 app.use("/", genl_routes);
